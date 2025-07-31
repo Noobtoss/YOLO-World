@@ -12,6 +12,13 @@ build/
 develop-eggs/
 dist/
 downloads/
+data/
+datasets/
+datasets_archived/
+runs/
+logs/
+results/
+models/
 eggs/
 .eggs/
 lib/
