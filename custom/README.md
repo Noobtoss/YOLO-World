@@ -2,7 +2,6 @@
 
 This folder contains custom shell scripts and Python scripts used for SLURM job management and training.
 
-- Shell scripts (`*.sh`) for submitting and testing SLURM jobs.
-- Python scripts (`*.py`) related to training workflows.
+## Additional Resources
 
-## Code References
+- Installation Guide: https://github.com/AILab-CVC/YOLO-World/issues/573
