@@ -20,6 +20,6 @@ module purge
 module load python/anaconda3
 eval "$(conda shell.bash hook)"
 
-conda activate conda_YOLO-World
+conda activate conda-YOLO-World
 
 srun python custom/python_scripts/image_demo.py $BASE_DIR/$CFG $BASE_DIR/$CKPT $BASE_DIR/$IMGS $PROMPTS --topk 100 --threshold 0.005 --output-dir runs

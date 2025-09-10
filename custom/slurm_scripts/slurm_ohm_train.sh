@@ -17,4 +17,4 @@ module purge
 module load python/anaconda3
 eval "$(conda shell.bash hook)"
 
-conda activate conda_YOLO-World
+conda activate conda-YOLO-World
