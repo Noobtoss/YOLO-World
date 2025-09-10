@@ -76,6 +76,7 @@ docs/zh_cn/_build/
 
 # PyBuilder
 target/
+logs/
 
 # Jupyter Notebook
 .ipynb_checkpoints
