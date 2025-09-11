@@ -9,7 +9,7 @@
 #SBATCH --cpus-per-task=4        # CPU Kerne pro Task (>1 für multi-threaded Tasks)
 #SBATCH --mem=32G                # RAM pro CPU Kern #20G #32G #64G
 
-BASE_DIR=/nfs/scratch/staff/schmittth/codeNexus/YOLO-World
+BASE_DIR=/nfs/scratch/staff/schmittth/code-nexus/YOLO-World
 CFG=${1:-custom/exps/Images04.py}
 CKPT=${2:-models/yolox_x.pth}
 
